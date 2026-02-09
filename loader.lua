@@ -241,15 +241,6 @@ if v4.Character then
     v109(v4.Character)
 end
 
-lderText = 'Enter access key...'
-v35.Text = ''
-v35.Font = Enum.Font.Gotham
-v35.TextSize = 18
-v35.TextColor3 = Color3.fromRGB(235, 235, 235)
-v35.ClearTextOnFocus = false
-v35.Parent = v15
-Instance.new('UICorner', v35).CornerRadius = UDim.new(0, 10)
-
 local v47 = Instance.new('TextButton')
 
 v47.Size = UDim2.new(1, -40, 0, 40)
@@ -266,7 +257,6 @@ v1.RenderStepped:Connect(function()
     local v151 = (tick() % 8) / 8
     local v152 = Color3.fromHSV(v151, 0.40000000000009095, 0.7000000000000455)
 
-    v22.Color = v152
     v47.BackgroundColor3 = v152:Lerp(Color3.fromRGB(20, 20, 25), 0.55)
 end)
 
@@ -369,7 +359,7 @@ local v111 = Instance.new('TextLabel')
 v111.Size = UDim2.fromOffset(300, 40)
 v111.Position = UDim2.new(0, 20, 0, 8)
 v111.BackgroundTransparency = 1
-v111.Text = 'Made By Kishoko'
+v111.Text = 'crashed by @rqccc'
 v111.TextSize = 22
 v111.Font = Enum.Font.GothamMedium
 v111.TextXAlignment = Enum.TextXAlignment.Left
@@ -415,7 +405,7 @@ v65.Size = UDim2.fromOffset(300, 40)
 v65.AnchorPoint = Vector2.new(1, 0)
 v65.Position = UDim2.new(1, -20, 0, 30)
 v65.BackgroundTransparency = 1
-v65.Text = 'Made By Kishoko'
+v65.Text = 'cracked by @rqccc'
 v65.TextColor3 = Color3.fromRGB(255, 255, 255)
 v65.TextSize = 22
 v65.Font = Enum.Font.GothamMedium
